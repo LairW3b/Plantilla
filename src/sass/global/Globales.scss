@@ -1,0 +1,33 @@
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before *:after {
+  box-sizing: inherit;
+}
+
+/* body {
+  font-size: $font-size;
+  font-family: $font;
+} */
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.content {
+  max-width: 120rem;
+  margin: auto;
+}

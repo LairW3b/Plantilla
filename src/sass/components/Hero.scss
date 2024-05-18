@@ -1,0 +1,17 @@
+.hero_content {
+  background-image: linear-gradient(rgba(17, 22, 32, 0.703),
+      rgba(17, 22, 32, 0.600)),
+      url(/public/img/barniz-portada.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: white; 
+  }
+}
